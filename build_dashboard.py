@@ -82,6 +82,12 @@ a{{color:var(--acc)}}
   <div class="chartbox"><canvas id="cVentas"></canvas></div>
 </div>
 
+<h2>🏛️ Congreso · operaciones declaradas</h2>
+<div class="card wrap"><table>
+<tr><th>Político</th><th>Fecha op.</th><th>Operación</th><th>Ticker</th><th>Importe</th><th>Activo</th></tr>
+{''.join(f'<tr><td>{o["politico"]}</td><td>{o["fecha"]}</td><td class="{"up" if o["operacion"]=="COMPRA" else "dn"}">{o["operacion"]}</td><td><b>{o["ticker"] or "—"}</b></td><td>{(f"{o["importe_min"]:,} - {o["importe_max"]:,}" if o.get("importe_max") else f"&gt; {o["importe_min"]:,}") if o.get("importe_min") else "—"}</td><td>{o["activo"][:40]}</td></tr>' for o in (data.get("congreso") or {}).get("operaciones", [])[:40])}
+</table></div>
+
 <h2>Mayores compras</h2>
 <div class="card wrap"><table>
 <tr><th>Insider</th><th>Cargo</th><th>Empresa</th><th>Fecha</th><th>Importe</th><th>Precio</th></tr>

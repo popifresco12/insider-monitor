@@ -1,0 +1,4 @@
+congreso_cache/
+precios_cache.json
+__pycache__/
+*.pyc

@@ -133,6 +133,34 @@ def puntuar(regs):
             if t["codigo"] in ("P", "p") and any(k in c for k in ("chief executive", "ceo", "chief financial", "cfo")):
                 avisos.append({"tipo": "ceo_cfo_compra", "peso": 4,
                                "detalle": f"COMPRA de {r['cargo']} ({r['insider']}) en {r['empresa']} ({r['ticker']}): {t['importe']:,.0f}$"})
+    # d) contracorriente: insider comprando con la accion hundida (la señal mas clasica)
+    try:
+        import precios as px
+    except ImportError:
+        import sys
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import precios as px
+    tickers = {}
+    for r in regs:
+        for t in r["txs"]:
+            if t.get("dudoso") or not t["importe"]:
+                continue
+            if t["codigo"] in ("P", "p") and t["importe"] >= 100_000 and r["ticker"]:
+                tickers.setdefault(r["ticker"], []).append((r, t))
+    for ticker, items in list(tickers.items()):
+        ctx = px.contexto(ticker)
+        if not ctx.get("ok"):
+            continue
+        for r, t in items:
+            r["precio_actual"] = ctx["precio"]
+            r["cambio90"] = ctx["cambio90"]
+            r["drawdown"] = ctx["drawdown"]
+            if ctx["cambio90"] is not None and ctx["cambio90"] <= -25:
+                avisos.append({"tipo": "contracorriente", "peso": 3.5 + abs(ctx["cambio90"]) / 25,
+                               "detalle": f"{r['insider']} ({r['cargo'] or 'insider'}) COMPRA {t['importe']:,.0f}$ en {r['empresa']} ({ticker}) con la accion {ctx['cambio90']:.0f}% abajo en 90 dias (desde maximo {ctx['drawdown']:.0f}%)"})
+            elif ctx["drawdown"] is not None and ctx["drawdown"] <= -40:
+                avisos.append({"tipo": "contracorriente", "peso": 3.0,
+                               "detalle": f"{r['insider']} ({r['cargo'] or 'insider'}) COMPRA {t['importe']:,.0f}$ en {r['empresa']} ({ticker}) a {ctx['drawdown']:.0f}% del maximo anual"})
     avisos.sort(key=lambda a: -a["peso"])
     return avisos
 
