@@ -18,7 +18,7 @@ def paso(t):
 
 # ── 1. insiders ──
 solo_congreso = "--sin-sec" in sys.argv      # para depurar sin repetir la descarga de la SEC
-paso("1/3  Insiders SEC (Form 4)")
+paso("1/4  Insiders SEC (Form 4)")
 if solo_congreso:
     print("  (omitido: --sin-sec, se reutiliza el data.json existente)")
 else:
@@ -31,7 +31,7 @@ else:
 data = json.load(io.open(os.path.join(BASE, "data.json"), encoding="utf-8"))
 
 # ── 2. congreso ──
-paso("2/3  Congreso (indice oficial + PTRs)")
+paso("2/4  Congreso (indice oficial + PTRs)")
 import congreso as cg
 ops = []
 try:
@@ -71,8 +71,19 @@ data["avisos_conjuntos"].sort(key=lambda a: -a["peso"])
 json.dump(data, io.open(os.path.join(BASE, "data.json"), "w", encoding="utf-8"),
           ensure_ascii=False, indent=1)
 
-# ── 3. dashboard ──
-paso("3/3  Dashboard")
+# ── 3. portfolios por insider ──
+paso("3/4  Portfolios por insider (18 meses de Form 4 + precios)")
+try:
+    r = subprocess.run([sys.executable, os.path.join(BASE, "portfolio.py")],
+                       capture_output=True, text=True, errors="replace", timeout=5400)
+    print("\n".join((r.stdout or "").splitlines()[-6:]))
+    if r.returncode != 0:
+        print("  AVISO: portfolio.py devolvio", r.returncode, (r.stderr or "")[-300:])
+except Exception as e:
+    print("  ERROR portfolio:", type(e).__name__, e, "-> el dashboard se genera igual, sin portfolios")
+
+# ── 4. dashboard ──
+paso("4/4  Dashboard")
 r = subprocess.run([sys.executable, os.path.join(BASE, "build_dashboard.py")],
                    capture_output=True, text=True, errors="replace", timeout=600)
 print(r.stdout[-600:] or r.stderr[-400:])
