@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T13:47:35",
+ "generado": "2026-10-13T09:03:40",
  "ventana_dias": 5,
  "filings_analizados": 400,
  "registros": [
@@ -1718,9 +1718,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 13.66,
-   "cambio90": -9.4,
-   "drawdown": -18.9
+   "precio_actual": 14.08,
+   "cambio90": -6.6,
+   "drawdown": -16.4
   },
   {
    "insider": "Scarpulla Justin",
@@ -2682,9 +2682,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 12.11,
-   "cambio90": -11.1,
-   "drawdown": -12.0
+   "precio_actual": 12.05,
+   "cambio90": -10.6,
+   "drawdown": -12.4
   },
   {
    "insider": "Saba Capital Management, L.P.",
@@ -3390,9 +3390,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 60.56,
-   "cambio90": -27.3,
-   "drawdown": -46.2
+   "precio_actual": 60.81,
+   "cambio90": -27.9,
+   "drawdown": -46.0
   },
   {
    "insider": "Epstein David R",
@@ -3624,9 +3624,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 13.08,
-   "cambio90": -12.7,
-   "drawdown": -27.8
+   "precio_actual": 12.97,
+   "cambio90": -14.3,
+   "drawdown": -28.4
   },
   {
    "insider": "Bensen Peter J",
@@ -4019,9 +4019,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 4.3,
-   "cambio90": 27.2,
-   "drawdown": -4.7
+   "precio_actual": 4.28,
+   "cambio90": 26.3,
+   "drawdown": -5.1
   },
   {
    "insider": "SCHMERTZLER MICHAEL",
@@ -4473,9 +4473,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 0.93,
-   "cambio90": -13.9,
-   "drawdown": -63.7
+   "precio_actual": 0.969,
+   "cambio90": -11.9,
+   "drawdown": -62.1
   },
   {
    "insider": "Chang Yahui",
@@ -5343,9 +5343,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 34.09,
-   "cambio90": 31.4,
-   "drawdown": -3.1
+   "precio_actual": 34.58,
+   "cambio90": 30.9,
+   "drawdown": -1.7
   },
   {
    "insider": "Atlas Capital Resources GP LLC",
@@ -5700,9 +5700,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 3.15,
-   "cambio90": -18.7,
-   "drawdown": -32.4
+   "precio_actual": 3.16,
+   "cambio90": -20.0,
+   "drawdown": -32.2
   },
   {
    "insider": "Wang Yanjun",
@@ -6598,9 +6598,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 8.84,
-   "cambio90": -0.9,
-   "drawdown": -23.2
+   "precio_actual": 8.43,
+   "cambio90": -8.9,
+   "drawdown": -26.8
   },
   {
    "insider": "Sierra Luis Manuel",
@@ -7918,9 +7918,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 12.22,
-   "cambio90": -50.6,
-   "drawdown": -78.0
+   "precio_actual": 11.34,
+   "cambio90": -51.4,
+   "drawdown": -79.6
   },
   {
    "insider": "TANSIL SCOTT J.",
@@ -8839,9 +8839,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 6.77,
-   "cambio90": -24.4,
-   "drawdown": -36.0
+   "precio_actual": 6.65,
+   "cambio90": -31.1,
+   "drawdown": -37.1
   },
   {
    "insider": "Mettee Michael M.",
@@ -9954,9 +9954,9 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 4.78,
-   "cambio90": -5.5,
-   "drawdown": -27.7
+   "precio_actual": 4.93,
+   "cambio90": -2.4,
+   "drawdown": -25.4
   },
   {
    "insider": "Neeleman Stephen",
@@ -10785,23 +10785,23 @@
   },
   {
    "tipo": "contracorriente",
-   "peso": 5.524,
-   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 3,490,150$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -78%)"
+   "peso": 5.556,
+   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 3,490,150$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -80%)"
   },
   {
    "tipo": "contracorriente",
-   "peso": 5.524,
-   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 4,351,830$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -78%)"
+   "peso": 5.556,
+   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 4,351,830$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -80%)"
   },
   {
    "tipo": "contracorriente",
-   "peso": 5.524,
-   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 10,318,950$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -78%)"
+   "peso": 5.556,
+   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 10,318,950$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -80%)"
   },
   {
    "tipo": "contracorriente",
-   "peso": 5.524,
-   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 14,117,400$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -78%)"
+   "peso": 5.556,
+   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 14,117,400$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -80%)"
   },
   {
    "tipo": "compra_grande",
@@ -10815,8 +10815,13 @@
   },
   {
    "tipo": "contracorriente",
-   "peso": 4.5920000000000005,
-   "detalle": "Rusnak Paul P. (Accionista >10% de SONIC AUTOMOTIVE INC) COMPRA 819,046$ en SONIC AUTOMOTIVE INC (SAH) con la accion -27% abajo en 90 dias (desde maximo -46%)"
+   "peso": 4.744,
+   "detalle": "L1 Capital Pty Ltd (Accionista >10% de Anteris Technologies Global Corp.) COMPRA 1,957,950$ en Anteris Technologies Global Corp. (AVR) con la accion -31% abajo en 90 dias (desde maximo -37%)"
+  },
+  {
+   "tipo": "contracorriente",
+   "peso": 4.616,
+   "detalle": "Rusnak Paul P. (Accionista >10% de SONIC AUTOMOTIVE INC) COMPRA 819,046$ en SONIC AUTOMOTIVE INC (SAH) con la accion -28% abajo en 90 dias (desde maximo -46%)"
   },
   {
    "tipo": "compra_grande",
@@ -10907,11 +10912,6 @@
    "tipo": "compra_grande",
    "peso": 3.9694410700000002,
    "detalle": "KAMFAR RAMIN (Consejero de Bluerock Private Real Estate Fund) compra 1,969,441$ en Bluerock Private Real Estate Fund (BPRE)"
-  },
-  {
-   "tipo": "compra_grande",
-   "peso": 3.9579501,
-   "detalle": "L1 Capital Pty Ltd (Accionista >10% de Anteris Technologies Global Corp.) compra 1,957,950$ en Anteris Technologies Global Corp. (AVR)"
   }
  ],
  "congreso": {
@@ -17436,23 +17436,23 @@
   },
   {
    "tipo": "contracorriente",
-   "peso": 5.524,
-   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 3,490,150$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -78%)"
+   "peso": 5.556,
+   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 3,490,150$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -80%)"
   },
   {
    "tipo": "contracorriente",
-   "peso": 5.524,
-   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 4,351,830$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -78%)"
+   "peso": 5.556,
+   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 4,351,830$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -80%)"
   },
   {
    "tipo": "contracorriente",
-   "peso": 5.524,
-   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 10,318,950$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -78%)"
+   "peso": 5.556,
+   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 10,318,950$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -80%)"
   },
   {
    "tipo": "contracorriente",
-   "peso": 5.524,
-   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 14,117,400$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -78%)"
+   "peso": 5.556,
+   "detalle": "Huang Jack Jiajia (Consejero Delegado (CEO) de 51Talk Online Education Group) COMPRA 14,117,400$ en 51Talk Online Education Group (COE) con la accion -51% abajo en 90 dias (desde maximo -80%)"
   },
   {
    "peso": 5.500001,
@@ -17486,8 +17486,13 @@
   },
   {
    "tipo": "contracorriente",
-   "peso": 4.5920000000000005,
-   "detalle": "Rusnak Paul P. (Accionista >10% de SONIC AUTOMOTIVE INC) COMPRA 819,046$ en SONIC AUTOMOTIVE INC (SAH) con la accion -27% abajo en 90 dias (desde maximo -46%)"
+   "peso": 4.744,
+   "detalle": "L1 Capital Pty Ltd (Accionista >10% de Anteris Technologies Global Corp.) COMPRA 1,957,950$ en Anteris Technologies Global Corp. (AVR) con la accion -31% abajo en 90 dias (desde maximo -37%)"
+  },
+  {
+   "tipo": "contracorriente",
+   "peso": 4.616,
+   "detalle": "Rusnak Paul P. (Accionista >10% de SONIC AUTOMOTIVE INC) COMPRA 819,046$ en SONIC AUTOMOTIVE INC (SAH) con la accion -28% abajo en 90 dias (desde maximo -46%)"
   },
   {
    "tipo": "compra_grande",
@@ -17538,11 +17543,6 @@
    "tipo": "ceo_cfo_compra",
    "peso": 4,
    "detalle": "COMPRA de Consejero Delegado (CEO) (Ben-Noon Dagi Shahar) en QTREX Quantum Ltd. (QTEX): 30,362$"
-  },
-  {
-   "tipo": "ceo_cfo_compra",
-   "peso": 4,
-   "detalle": "COMPRA de Consejero Delegado (CEO) (Nassif Mikheal) en NEOGEN CORP (NEOG): 6,035$"
   }
  ]
 }
