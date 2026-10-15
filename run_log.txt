@@ -1,0 +1,37 @@
+
+============================================================
+1/4  Insiders SEC (Form 4)
+============================================================
+  [  4.7] contracorriente  MCCARTHY KENT C (Accionista >10% de New ERA Energy & Digital, Inc.) COMPRA 1,192,350$ en New ERA Energy & Digital, Inc. 
+  [  4.1] compra_grande    KAMFAR RAMIN (Consejero de Bluerock Private Real Estate Fund) compra 2,060,258$ en Bluerock Private Real Estate Fund (BP
+  [  4.0] ceo_cfo_compra   COMPRA de Consejero Delegado (CEO) (Seto Wai Yue) en Dreamland Ltd (TDIC): 600,000$
+  [  4.0] ceo_cfo_compra   COMPRA de Consejero Delegado (CEO) (Lappe Mark) en Inhibrx Biosciences, Inc. (INBX): 207,655$
+  [  4.0] ceo_cfo_compra   COMPRA de Consejero Delegado (CEO) (Lappe Mark) en Inhibrx Biosciences, Inc. (INBX): 209,948$
+  [  4.0] ceo_cfo_compra   COMPRA de Consejero Delegado (CEO) (Lappe Mark) en Inhibrx Biosciences, Inc. (INBX): 8,576$
+  [  4.0] ceo_cfo_compra   COMPRA de Consejero Delegado (CEO) (Lappe Mark) en Inhibrx Biosciences, Inc. (INBX): 205,889$
+  [  4.0] ceo_cfo_compra   COMPRA de Consejero Delegado (CEO) (Lappe Mark) en Inhibrx Biosciences, Inc. (INBX): 208,333$
+
+============================================================
+2/4  Congreso (indice oficial + PTRs)
+============================================================
+  operaciones de congresistas parseadas: 400
+
+============================================================
+3/4  Portfolios por insider (18 meses de Form 4 + precios)
+============================================================
+  [57/60] Agrawal Nitin                  | 30 form | ops 101 | valor     3,143,100 | resultado    -5,361,540 (-6.5%)
+  [58/60] MATT PETER R                   |  6 form | ops  11 | valor     9,572,885 | resultado       410,842 (3.4%)
+  [59/60] Ng Chun Seong                  |  1 form | ops   1 | valor             0 | resultado             0 (None%)
+  [60/60] King Ryan A                    | 13 form | ops  74 | valor   463,633,846 | resultado   -83,815,387 (-14.8%)
+
+portfolios.json: 60 personas | con curva de evolucion: 58
+
+============================================================
+4/4  Dashboard
+============================================================
+index.html generado: 478,221 bytes
+compras: 43 | ventas: 440 | avisos: 34 | insiders: 322 | con portfolio: 60
+clusters: 1 | contracorriente: 3 | politicos: 35 | ops congreso: 400
+
+
+Pipeline completado 2026-10-15T09:05:42
