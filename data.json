@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-17T09:03:33",
+ "generado": "2026-10-18T09:03:31",
  "ventana_dias": 5,
  "filings_analizados": 400,
  "registros": [
@@ -11728,6 +11728,86 @@
   "operaciones": [
    {
     "owner": "SP",
+    "activo": "CA ST GO UTX [GS]",
+    "ticker": "",
+    "tipo_activo": "GS",
+    "operacion": "COMPRA",
+    "fecha": "09/03/2026",
+    "importe_min": 250001,
+    "importe_max": 500000,
+    "opciones": false,
+    "politico": "Scott H. Peters",
+    "distrito": "CA50",
+    "docid": "20035637",
+    "fecha_archivo": "2026-10-15",
+    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035637.pdf"
+   },
+   {
+    "owner": "SP",
+    "activo": "CA ST GO UTX [GS]",
+    "ticker": "",
+    "tipo_activo": "GS",
+    "operacion": "COMPRA",
+    "fecha": "09/03/2026",
+    "importe_min": 100001,
+    "importe_max": 250000,
+    "opciones": false,
+    "politico": "Scott H. Peters",
+    "distrito": "CA50",
+    "docid": "20035637",
+    "fecha_archivo": "2026-10-15",
+    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035637.pdf"
+   },
+   {
+    "owner": "SP",
+    "activo": "Charlotte-Meckle HLTH [GS]",
+    "ticker": "",
+    "tipo_activo": "GS",
+    "operacion": "COMPRA",
+    "fecha": "09/25/2026",
+    "importe_min": 250001,
+    "importe_max": 500000,
+    "opciones": false,
+    "politico": "Scott H. Peters",
+    "distrito": "CA50",
+    "docid": "20035637",
+    "fecha_archivo": "2026-10-15",
+    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035637.pdf"
+   },
+   {
+    "owner": "SP",
+    "activo": "U.S. Treasury Bill [GS]",
+    "ticker": "",
+    "tipo_activo": "GS",
+    "operacion": "VENTA",
+    "fecha": "09/24/2026",
+    "importe_min": 250001,
+    "importe_max": 500000,
+    "opciones": false,
+    "politico": "Scott H. Peters",
+    "distrito": "CA50",
+    "docid": "20035637",
+    "fecha_archivo": "2026-10-15",
+    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035637.pdf"
+   },
+   {
+    "owner": "RPM",
+    "activo": "International Inc. Common",
+    "ticker": "RPM",
+    "tipo_activo": "ST",
+    "operacion": "COMPRA",
+    "fecha": "10/09/2026",
+    "importe_min": 1001,
+    "importe_max": 15000,
+    "opciones": false,
+    "politico": "David J. Taylor",
+    "distrito": "OH02",
+    "docid": "20035660",
+    "fecha_archivo": "2026-10-15",
+    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf"
+   },
+   {
+    "owner": "SP",
     "activo": "AutoZone, Inc. Common Stock (AZO)",
     "ticker": "AZO",
     "tipo_activo": "ST",
@@ -18109,54 +18189,6 @@
     "docid": "20035047",
     "fecha_archivo": "2026-07-20",
     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035047.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "GE Aerospace Common Stock (GE)",
-    "ticker": "GE",
-    "tipo_activo": "OP",
-    "operacion": "VENTA",
-    "fecha": "06/16/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": true,
-    "politico": "Laurel Lee",
-    "distrito": "FL15",
-    "docid": "20034694",
-    "fecha_archivo": "2026-07-19",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034694.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Nokia Corporation Sponsored",
-    "ticker": "NOK",
-    "tipo_activo": "",
-    "operacion": "VENTA",
-    "fecha": "07/06/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Laurel Lee",
-    "distrito": "FL15",
-    "docid": "20034694",
-    "fecha_archivo": "2026-07-19",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034694.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Nokia Corporation Sponsored",
-    "ticker": "NOK",
-    "tipo_activo": "",
-    "operacion": "VENTA",
-    "fecha": "07/06/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Laurel Lee",
-    "distrito": "FL15",
-    "docid": "20034694",
-    "fecha_archivo": "2026-07-19",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034694.pdf"
    }
   ],
   "avisos": [
@@ -18216,7 +18248,7 @@
     "detalle": "Nancy Pelosi COMPRA de BE por 1,000,001-5,000,000$ (07/24/2026)"
    }
   ],
-  "n_operaciones": 402
+  "n_operaciones": 404
  },
  "avisos_conjuntos": [
   {
