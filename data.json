@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T09:08:25",
+ "generado": "2026-10-25T09:05:56",
  "ventana_dias": 5,
  "filings_analizados": 400,
  "registros": [
@@ -4674,8 +4674,8 @@
      "dudoso": false
     }
    ],
-   "precio_actual": 10.29,
-   "cambio90": 2.9,
+   "precio_actual": 10.4,
+   "cambio90": 4.0,
    "drawdown": 0.0
   },
   {
@@ -18902,168 +18902,9 @@
     "docid": "20035067",
     "fecha_archivo": "2026-07-27",
     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035067.pdf"
-   },
-   {
-    "owner": "DC",
-    "activo": "Applied Materials, Inc. - Common",
-    "ticker": "AMAT",
-    "tipo_activo": "ST",
-    "operacion": "COMPRA",
-    "fecha": "06/18/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Jared Moskowitz",
-    "distrito": "FL23",
-    "docid": "20034963",
-    "fecha_archivo": "2026-07-26",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
-   },
-   {
-    "owner": "DC",
-    "activo": "Applied Materials, Inc. - Common",
-    "ticker": "AMAT",
-    "tipo_activo": "ST",
-    "operacion": "COMPRA",
-    "fecha": "06/18/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Jared Moskowitz",
-    "distrito": "FL23",
-    "docid": "20034963",
-    "fecha_archivo": "2026-07-26",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
-   },
-   {
-    "owner": "DC",
-    "activo": "HCA Healthcare, Inc. Common Stock",
-    "ticker": "HCA",
-    "tipo_activo": "ST",
-    "operacion": "COMPRA",
-    "fecha": "06/17/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Jared Moskowitz",
-    "distrito": "FL23",
-    "docid": "20034963",
-    "fecha_archivo": "2026-07-26",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
-   },
-   {
-    "owner": "HCA",
-    "activo": "Healthcare, Inc. Common Stock",
-    "ticker": "HCA",
-    "tipo_activo": "ST",
-    "operacion": "COMPRA",
-    "fecha": "06/17/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Jared Moskowitz",
-    "distrito": "FL23",
-    "docid": "20034963",
-    "fecha_archivo": "2026-07-26",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
-   },
-   {
-    "owner": "DC",
-    "activo": "Meta Platforms, Inc. - Class A",
-    "ticker": "META",
-    "tipo_activo": "ST",
-    "operacion": "COMPRA",
-    "fecha": "06/17/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Jared Moskowitz",
-    "distrito": "FL23",
-    "docid": "20034963",
-    "fecha_archivo": "2026-07-26",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
-   },
-   {
-    "owner": "DC",
-    "activo": "Microsoft Corporation - Common",
-    "ticker": "MSFT",
-    "tipo_activo": "ST",
-    "operacion": "COMPRA",
-    "fecha": "06/17/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Jared Moskowitz",
-    "distrito": "FL23",
-    "docid": "20034963",
-    "fecha_archivo": "2026-07-26",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
-   },
-   {
-    "owner": "DC",
-    "activo": "Monster Beverage Corporation -",
-    "ticker": "MNST",
-    "tipo_activo": "ST",
-    "operacion": "COMPRA",
-    "fecha": "06/17/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Jared Moskowitz",
-    "distrito": "FL23",
-    "docid": "20034963",
-    "fecha_archivo": "2026-07-26",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
-   },
-   {
-    "owner": "DC",
-    "activo": "S&P Global Inc. Common Stock",
-    "ticker": "SPGI",
-    "tipo_activo": "ST",
-    "operacion": "VENTA",
-    "fecha": "06/17/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Jared Moskowitz",
-    "distrito": "FL23",
-    "docid": "20034963",
-    "fecha_archivo": "2026-07-26",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
-   },
-   {
-    "owner": "DC",
-    "activo": "S&P Global Inc. Common Stock",
-    "ticker": "SPGI",
-    "tipo_activo": "ST",
-    "operacion": "VENTA",
-    "fecha": "06/17/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Jared Moskowitz",
-    "distrito": "FL23",
-    "docid": "20034963",
-    "fecha_archivo": "2026-07-26",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
    }
   ],
   "avisos": [
-   {
-    "peso": 12,
-    "tipo": "congreso_cluster",
-    "detalle": "3 congresistas distintos COMPRANDO MSFT: Jared Moskowitz, Josh Gottheimer, Lisa McClain"
-   },
-   {
-    "peso": 12,
-    "tipo": "congreso_cluster",
-    "detalle": "3 congresistas distintos COMPRANDO AMAT: Jared Moskowitz, John J Mr McGuire, Josh Gottheimer"
-   },
-   {
-    "peso": 12,
-    "tipo": "congreso_cluster",
-    "detalle": "3 congresistas distintos COMPRANDO MNST: Jared Moskowitz, Josh Gottheimer, Julie Johnson"
-   },
    {
     "peso": 8.000001000000001,
     "tipo": "congreso_compra_grande",
@@ -19078,6 +18919,21 @@
     "peso": 8,
     "tipo": "congreso_cluster",
     "detalle": "2 congresistas distintos COMPRANDO Black Belt Energy Gas Di: Mike Kelly, Suzan K. DelBene"
+   },
+   {
+    "peso": 8,
+    "tipo": "congreso_cluster",
+    "detalle": "2 congresistas distintos COMPRANDO MSFT: Josh Gottheimer, Lisa McClain"
+   },
+   {
+    "peso": 8,
+    "tipo": "congreso_cluster",
+    "detalle": "2 congresistas distintos COMPRANDO AMAT: John J Mr McGuire, Josh Gottheimer"
+   },
+   {
+    "peso": 8,
+    "tipo": "congreso_cluster",
+    "detalle": "2 congresistas distintos COMPRANDO MNST: Josh Gottheimer, Julie Johnson"
    },
    {
     "peso": 6.000001,
@@ -19115,7 +18971,7 @@
     "detalle": "Nancy Pelosi COMPRA de BE por 1,000,001-5,000,000$ (07/24/2026)"
    }
   ],
-  "n_operaciones": 410
+  "n_operaciones": 401
  },
  "avisos_conjuntos": [
   {
@@ -19127,21 +18983,6 @@
    "tipo": "cluster_compra",
    "peso": 12,
    "detalle": "4 insiders distintos COMPRANDO en CHCO: FISHER ROBERT D, Hoyer James A, Reyes Javier A, STRONG-TREISTER DIANE W"
-  },
-  {
-   "peso": 12,
-   "tipo": "congreso_cluster",
-   "detalle": "3 congresistas distintos COMPRANDO MSFT: Jared Moskowitz, Josh Gottheimer, Lisa McClain"
-  },
-  {
-   "peso": 12,
-   "tipo": "congreso_cluster",
-   "detalle": "3 congresistas distintos COMPRANDO AMAT: Jared Moskowitz, John J Mr McGuire, Josh Gottheimer"
-  },
-  {
-   "peso": 12,
-   "tipo": "congreso_cluster",
-   "detalle": "3 congresistas distintos COMPRANDO MNST: Jared Moskowitz, Josh Gottheimer, Julie Johnson"
   },
   {
    "tipo": "compra_grande",
@@ -19167,6 +19008,21 @@
    "peso": 8,
    "tipo": "congreso_cluster",
    "detalle": "2 congresistas distintos COMPRANDO Black Belt Energy Gas Di: Mike Kelly, Suzan K. DelBene"
+  },
+  {
+   "peso": 8,
+   "tipo": "congreso_cluster",
+   "detalle": "2 congresistas distintos COMPRANDO MSFT: Josh Gottheimer, Lisa McClain"
+  },
+  {
+   "peso": 8,
+   "tipo": "congreso_cluster",
+   "detalle": "2 congresistas distintos COMPRANDO AMAT: John J Mr McGuire, Josh Gottheimer"
+  },
+  {
+   "peso": 8,
+   "tipo": "congreso_cluster",
+   "detalle": "2 congresistas distintos COMPRANDO MNST: Josh Gottheimer, Julie Johnson"
   },
   {
    "peso": 6.000001,
