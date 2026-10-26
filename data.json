@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T09:05:56",
+ "generado": "2026-10-26T09:06:26",
  "ventana_dias": 5,
  "filings_analizados": 400,
  "registros": [
@@ -18870,38 +18870,6 @@
     "docid": "20034972",
     "fecha_archivo": "2026-07-30",
     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034972.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Oaktree Strategic Credit Fund Class S",
-    "ticker": "",
-    "tipo_activo": "OT",
-    "operacion": "COMPRA",
-    "fecha": "06/30/2026",
-    "importe_min": 1001,
-    "importe_max": 15000,
-    "opciones": false,
-    "politico": "Sheri Biggs",
-    "distrito": "SC03",
-    "docid": "20035007",
-    "fecha_archivo": "2026-07-27",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035007.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "CarterBaldwin [PS]",
-    "ticker": "",
-    "tipo_activo": "PS",
-    "operacion": "COMPRA",
-    "fecha": "07/31/2026",
-    "importe_min": 15001,
-    "importe_max": 50000,
-    "opciones": false,
-    "politico": "Adrian Smith",
-    "distrito": "NE03",
-    "docid": "20035067",
-    "fecha_archivo": "2026-07-27",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035067.pdf"
    }
   ],
   "avisos": [
@@ -18971,7 +18939,7 @@
     "detalle": "Nancy Pelosi COMPRA de BE por 1,000,001-5,000,000$ (07/24/2026)"
    }
   ],
-  "n_operaciones": 401
+  "n_operaciones": 399
  },
  "avisos_conjuntos": [
   {
