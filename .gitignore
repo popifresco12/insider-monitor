@@ -4,3 +4,11 @@ portfolio_cache.json
 *.bak
 __pycache__/
 *.pyc
+
+# secretos (añadido 2026-10-28)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
