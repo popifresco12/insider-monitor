@@ -2,36 +2,36 @@
 ============================================================
 1/4  Insiders SEC (Form 4)
 ============================================================
-  [  4.8] contracorriente  CHS US Investments LLC (Accionista >10% de Rent the Runway, Inc.) COMPRA 1,626,770$ en Rent the Runway, Inc. (RENT) con 
-  [  4.2] compra_grande    STORY3 Capital Partners, LLC (Consejero de Rent the Runway, Inc.) compra 2,246,873$ en Rent the Runway, Inc. (RENT)
-  [  4.2] compra_grande    Nexus Capital Management LP (Consejero de Rent the Runway, Inc.) compra 2,246,873$ en Rent the Runway, Inc. (RENT)
-  [  4.0] compra_grande    Blackstone Private Multi-Asset Credit & Income Fund (Accionista >10% de Blackstone Private Real Estate Credit & Income F
-  [  4.0] compra_grande    Blackstone Holdings IV L.P. (Accionista >10% de Blackstone Private Real Estate Credit & Income Fund) compra 2,000,000$ e
-  [  4.0] ceo_cfo_compra   COMPRA de Director Financiero (CFO) (Nelson Blake) en NXG NextGen Infrastructure Income Fund (NXG): 39,582$
-  [  4.0] ceo_cfo_compra   COMPRA de Consejero Delegado (CEO) (Kushner Koby Solomon) en ATHENA GOLD CORP (AHNRF): 3,534$
-  [  4.0] ceo_cfo_compra   COMPRA de Presidente (Equels Thomas K) en AIM ImmunoTech Inc. (AIM): 5,094$
+  [  4.5] compra_grande    Sweet Julie Spellman (Consejero Delegado (CEO) de Accenture plc) compra 2,486,318$ en Accenture plc (ACN)
+  [  4.0] ceo_cfo_compra   COMPRA de Presidente del Consejo (CORNWELL KEVIN L) en UTAH MEDICAL PRODUCTS INC (UTMD): 66,750$
+  [  4.0] ceo_cfo_compra   COMPRA de Presidente (SCHMITT DANIEL M) en ACTUATE THERAPEUTICS, INC. (ACTU): 50,000$
+  [  4.0] ceo_cfo_compra   COMPRA de Director Financiero (CFO) (Lucky Mark Burdon) en VISIUM TECHNOLOGIES, INC. (VISM): 450$
+  [  4.0] ceo_cfo_compra   COMPRA de Director Financiero (CFO) (Lucky Mark Burdon) en VISIUM TECHNOLOGIES, INC. (VISM): 1,380$
+  [  4.0] ceo_cfo_compra   COMPRA de Director Financiero (CFO) (Lucky Mark Burdon) en VISIUM TECHNOLOGIES, INC. (VISM): 269$
+  [  4.0] ceo_cfo_compra   COMPRA de Director Financiero (CFO) (Lucky Mark Burdon) en VISIUM TECHNOLOGIES, INC. (VISM): 448$
+  [  4.0] ceo_cfo_compra   COMPRA de Director Financiero (CFO) (Lucky Mark Burdon) en VISIUM TECHNOLOGIES, INC. (VISM): 272$
 
 ============================================================
 2/4  Congreso (indice oficial + PTRs)
 ============================================================
-  operaciones de congresistas parseadas: 410
+  operaciones de congresistas parseadas: 415
 
 ============================================================
 3/4  Portfolios por insider (18 meses de Form 4 + precios)
 ============================================================
-  [57/60] Leach Bryan                    | 22 form | ops 126 | valor    16,121,506 | resultado    20,081,298 (123.3%)
-  [58/60] BORGESON JOHN A.               |  7 form | ops  20 | valor     2,608,395 | resultado     7,357,720 (4225.3%)
-  [59/60] Rowland David Donnay           |  8 form | ops  14 | valor     1,996,675 | resultado     6,461,342 (93.6%)
-  [60/60] Trent Melanie Montague         |  7 form | ops   7 | valor       673,473 | resultado     1,042,501 (130.5%)
+  [57/60] RUBINSTEIN JULIE               | 22 form | ops 154 | valor             0 | resultado     8,510,873 (88.7%)
+  [58/60] Umberger Traci S               |  9 form | ops  14 | valor     2,390,763 | resultado     2,251,685 (48.6%)
+  [59/60] BASSWOOD CAPITAL MANAGEMENT, L | 18 form | ops 132 | valor     1,088,018 | resultado       814,265 (28.6%)
+  [60/60] Aviv David Meleh               |  4 form | ops   6 | valor             0 | resultado        85,500 (15.2%)
 
-portfolios.json: 60 personas | con curva de evolucion: 57
+portfolios.json: 60 personas | con curva de evolucion: 58
 
 ============================================================
 4/4  Dashboard
 ============================================================
-index.html generado: 458,697 bytes
-compras: 114 | ventas: 333 | avisos: 40 | insiders: 325 | con portfolio: 60
-clusters: 4 | contracorriente: 3 | politicos: 36 | ops congreso: 410
+index.html generado: 474,026 bytes
+compras: 86 | ventas: 340 | avisos: 40 | insiders: 347 | con portfolio: 60
+clusters: 2 | contracorriente: 2 | politicos: 35 | ops congreso: 415
 
 
-Pipeline completado 2026-10-24T09:14:20
+Pipeline completado 2026-10-30T09:14:10
