@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-31T09:06:58",
+ "generado": "2026-11-01T09:07:11",
  "ventana_dias": 5,
  "filings_analizados": 400,
  "registros": [
@@ -11342,6 +11342,22 @@
  "congreso": {
   "operaciones": [
    {
+    "owner": "RPM",
+    "activo": "International Inc. Common",
+    "ticker": "RPM",
+    "tipo_activo": "ST",
+    "operacion": "COMPRA",
+    "fecha": "10/15/2026",
+    "importe_min": 1001,
+    "importe_max": 15000,
+    "opciones": false,
+    "politico": "David J. Taylor",
+    "distrito": "OH02",
+    "docid": "20035727",
+    "fecha_archivo": "2026-10-29",
+    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035727.pdf"
+   },
+   {
     "owner": "JT",
     "activo": "Black Belt Energy Gas Dist Ala Gas",
     "ticker": "",
@@ -18049,7 +18065,7 @@
     "detalle": "Nancy Pelosi COMPRA de BE por 1,000,001-5,000,000$ (07/24/2026)"
    }
   ],
-  "n_operaciones": 415
+  "n_operaciones": 416
  },
  "avisos_conjuntos": [
   {
