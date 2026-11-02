@@ -29,7 +29,7 @@ def dias_atras(n):
 # ── 1. listado de Form 4 de los ultimos N dias ──
 def listar_form4(dias=2):
     out = []
-    for pagina in range(0, 4):                     # hasta 400 filings
+    for pagina in range(0, 9):                     # hasta 900 filings (la ventana de 5 dias trae 600-800)
         q = urllib.parse.urlencode({"q": "", "forms": "4", "dateRange": "custom",
                                     "startdt": dias_atras(dias), "enddt": dias_atras(0), "from": pagina * 100})
         d = json.loads(get(f"https://efts.sec.gov/LATEST/search-index?{q}"))
