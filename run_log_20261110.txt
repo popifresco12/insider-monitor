@@ -1,0 +1,37 @@
+
+============================================================
+1/4  Insiders SEC (Form 4)
+============================================================
+  [ 17.0] compra_grande    BAKER BROS. ADVISORS LP (Consejero de Kodiak Sciences Inc.) compra 14,965,245$ en Kodiak Sciences Inc. (KOD)
+  [ 15.4] compra_grande    GOLDENTREE ASSET MANAGEMENT LP (Accionista >10% de Keenova Therapeutics plc) compra 13,387,500$ en Keenova Therapeutics 
+  [ 15.0] compra_grande    GOLDENTREE ASSET MANAGEMENT LP (Accionista >10% de Keenova Therapeutics plc) compra 13,005,153$ en Keenova Therapeutics 
+  [ 15.0] cluster_compra   5 insiders distintos COMPRANDO en NONE: Booth Richard Whitaker, GOLDENTREE ASSET MANAGEMENT LP, Hall Bjorn, Hennigan Tho
+  [ 14.6] compra_grande    NIPPON LIFE INSURANCE CO (Accionista >10% de Corebridge Financial, Inc.) compra 12,586,239$ en Corebridge Financial, Inc
+  [ 13.7] compra_grande    Pale Fire Capital SE (Accionista >10% de Coursera, Inc.) compra 11,650,415$ en Coursera, Inc. (COUR)
+  [ 12.4] compra_grande    Pale Fire Capital SE (Accionista >10% de Coursera, Inc.) compra 10,398,824$ en Coursera, Inc. (COUR)
+  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en OBIO: Fain Eric S, Hochman David P, Pacitti David, Taylor Andrew Lawrence
+
+============================================================
+2/4  Congreso (indice oficial + PTRs)
+============================================================
+  operaciones de congresistas parseadas: 288
+
+============================================================
+3/4  Portfolios por insider (18 meses de Form 4 + precios)
+============================================================
+  [57/60] Pellegrino Frank G             | 25 form | ops  25 | valor       242,309 | resultado        56,114 (30.1%)
+  [58/60] Shattuck Katherine W           | 26 form | ops  26 | valor        43,712 | resultado         8,360 (18.5%)
+  [59/60] Elcan Patricia F               |  2 form | ops   4 | valor 18,457,334,919 | resultado   116,982,851 (0.6%)
+  [60/60] FRIST THOMAS F III             |  3 form | ops   5 | valor 18,457,860,510 | resultado   117,058,813 (0.6%)
+
+portfolios.json: 60 personas | con curva de evolucion: 57
+
+============================================================
+4/4  Dashboard
+============================================================
+index.html generado: 459,962 bytes
+compras: 286 | ventas: 1307 | avisos: 40 | insiders: 1175 | con portfolio: 60
+clusters: 10 | contracorriente: 58 | politicos: 34 | ops congreso: 288
+
+
+Pipeline completado 2026-11-10T10:05:00
