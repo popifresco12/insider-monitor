@@ -1,0 +1,37 @@
+
+============================================================
+1/4  Insiders SEC (Form 4)
+============================================================
+  [ 15.0] compra_grande    GOLDENTREE ASSET MANAGEMENT LP (Accionista >10% de Keenova Therapeutics plc) compra 13,005,153$ en Keenova Therapeutics 
+  [ 15.0] cluster_compra   5 insiders distintos COMPRANDO en MTDR: Appel Shelley F, Ehrman Monika U, Foran Joseph Wm, Harvey Paul W, Stetson Glenn 
+  [ 15.0] cluster_compra   5 insiders distintos COMPRANDO en OBIO: Fain Eric S, Hochman David P, Pacitti David, RTW INVESTMENTS, LP, Taylor Andrew 
+  [ 15.0] cluster_compra   5 insiders distintos COMPRANDO en DOX: Davis Sarah R., Genish Amos, Kanouff Yvette, MORALI VERONIQUE, MacDonald John Ant
+  [ 15.0] cluster_compra   5 insiders distintos COMPRANDO en GSM: CROCKETT BRUCE LARMOUR, Girardeau David Marie, Gabriel, Levi Marco, Lopez Madrid 
+  [ 15.0] cluster_compra   5 insiders distintos COMPRANDO en SLQT: Danker Timothy Robert, Grant Robert Clay, Grant William Thomas III, Hawks Donald
+  [ 13.0] compra_grande    GOLDENTREE ASSET MANAGEMENT LP (Accionista >10% de Keenova Therapeutics plc) compra 10,979,332$ en Keenova Therapeutics 
+  [ 12.5] venta_masiva     Argon Holdco LLC (Accionista >10% de Corebridge Financial, Inc.) VENDE 110,032,293$ en Corebridge Financial, Inc. (CRBG)
+
+============================================================
+2/4  Congreso (indice oficial + PTRs)
+============================================================
+  operaciones de congresistas parseadas: 288
+
+============================================================
+3/4  Portfolios por insider (18 meses de Form 4 + precios)
+============================================================
+  [57/60] Plott Ronald Todd              |  4 form | ops   5 | valor        48,964 | resultado       -10,845 (-18.1%)
+  [58/60] Shankar Gopi                   |  2 form | ops   2 | valor        82,720 | resultado       -23,122 (-21.8%)
+  [59/60] Wei Che-Chia                   |  9 form | ops   9 | valor    83,375,637 | resultado    -1,325,312 (-1.6%)
+  [60/60] Deming David H                 |  3 form | ops   4 | valor        40,438 | resultado       -22,505 (-35.8%)
+
+portfolios.json: 60 personas | con curva de evolucion: 60
+
+============================================================
+4/4  Dashboard
+============================================================
+index.html generado: 436,600 bytes
+compras: 479 | ventas: 1543 | avisos: 40 | insiders: 1552 | con portfolio: 60
+clusters: 10 | contracorriente: 81 | politicos: 34 | ops congreso: 288
+
+
+Pipeline completado 2026-11-13T09:52:08
