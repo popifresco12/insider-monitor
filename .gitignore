@@ -1,6 +1,7 @@
 congreso_cache/
 precios_cache.json
 portfolio_cache.json
+cortos_cache.json
 *.bak
 __pycache__/
 *.pyc

@@ -116,7 +116,9 @@ politicos = sorted([{**v, "nombre": k, "tk": sorted(v["tk"])[:6]} for k, v in po
 
 TIPOS = {"cluster_compra": "clúster de compras", "compra_grande": "compra grande", "venta_masiva": "venta masiva",
          "ceo_cfo_compra": "CEO/CFO comprando", "contracorriente": "a contracorriente",
-         "congreso_compra_grande": "Congreso · compra grande", "congreso_opciones": "Congreso · opciones"}
+         "congreso_compra_grande": "Congreso · compra grande", "congreso_opciones": "Congreso · opciones",
+         "congreso_cluster": "Congreso · varios comprando",
+         "compra_con_cortos": "compran con el valor muy en corto · posible squeeze"}
 
 # ═══ filas HTML ═══
 def cl_attrs(nombre, cual="p"):
@@ -172,6 +174,35 @@ contra_html = "".join(
     f'<div class="aler"><b>{e(c["insider"])}</b> compra {fmt(c["importe"])}$ en <b>{e(c["ticker"])}</b> '
     f'<span class="dn">{c["cambio90"]:+.0f}% en 90 días</span><div class="m">{e(c["cargo_largo"])}</div></div>'
     for c in contra[:8]) or '<div class="m">Ninguna compra grande con la acción hundida.</div>'
+
+# ── cortos: interés bajista cruzado con compras de insiders ──
+_cort = data.get("cortos") or {}
+_filas_cort = _cort.get("filas") or []
+_cob = _cort.get("cobertura") or [0, 0]
+if _filas_cort:
+    _parts = []
+    for x in _filas_cort:
+        _cl = "dn" if x["cambio_pct"] > 0 else "up"
+        _parts.append(
+            '<tr><td><b>' + e(x["ticker"]) + '</b></td>'
+            + '<td class="dimsub">' + e((x.get("empresa") or "")[:30]) + '</td>'
+            + '<td><b>' + ("%.1f" % x["dias_cobertura"]) + '</b></td>'
+            + '<td>' + fmt(x["interes"]) + '</td>'
+            + '<td class="' + _cl + '">' + ("%+.0f%%" % x["cambio_pct"]) + '</td>'
+            + '<td><b>' + fmt(x["comprado"]) + '$</b></td>'
+            + '<td>' + str(x["n_insiders"]) + '</td></tr>')
+    _trs = "".join(_parts)
+    cortos_html = ('<div class="sub" style="margin:0 0 8px">Días de cobertura = cuántas jornadas '
+                   'de negociación necesitaría un bajista para recomprar su posición. Por encima de 5 '
+                   'es gasolina para un <b>short squeeze</b>. Dato de liquidación del '
+                   + e(str(_cort.get("fecha_dato") or "—")) +
+                   ' · cobertura ' + str(_cob[0]) + ' de ' + str(_cob[1]) + ' valores consultados.</div>'
+                   '<div class="wrap"><table>'
+                   '<tr><th>Ticker</th><th>Empresa</th><th>Días cob.</th><th>Cortos</th>'
+                   '<th>Var.</th><th>Comprado</th><th>Insiders</th></tr>'
+                   + _trs + '</table></div>')
+else:
+    cortos_html = '<div class="m">Sin datos de posiciones cortas para los valores de hoy.</div>'
 
 # ═══ datos para el JS ═══
 JS_COMP = [{"n": (c["insider"] + " · " + (c["ticker"] or c["empresa"])[:12]), "v": round(c["importe"])} for c in compras[:12]]
@@ -263,6 +294,9 @@ __NINS__ insiders · __NPORT__ con portfolio · generado __GEN__</div>
 
 <h2>↘️ Compras a contracorriente <span class="badge">la señal más clásica</span></h2>
 <div class="card">__CONTRA__</div>
+
+<h2>🩳 Compran mientras el valor está muy en corto <span class="badge">candidatos a squeeze</span></h2>
+<div class="card">__CORTOS__</div>
 
 <h2>👥 Varios insiders comprando la misma empresa</h2>
 <div class="card">__CLUSTERS__</div>
@@ -399,6 +433,7 @@ reemplazos = {
     "__NETO__": f"{(total_c-total_v)/1e6:,.1f} M$", "__NETOCLS__": "up" if total_c >= total_v else "dn",
     "__NAV__": str(len(avisos)), "__NEMP__": str(len(por_emp)), "__NCONG__": str(len(ops_cong)),
     "__AVISOS__": avisos_html, "__CLUSTERS__": clusters_html, "__CONTRA__": contra_html,
+    "__CORTOS__": cortos_html,
     "__FILAS_COMPRA__": filas_compra, "__FILAS_VENTA__": filas_venta, "__FILAS_ACTIVOS__": filas_activos,
     "__FILAS_POL__": filas_pol, "__FILAS_CONG__": filas_cong,
     "__JS_COMP__": json.dumps(JS_COMP, ensure_ascii=False), "__JS_VENT__": json.dumps(JS_VENT, ensure_ascii=False),

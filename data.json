@@ -59708,6 +59708,46 @@
  ],
  "avisos": [
   {
+   "peso": 22.194158,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 1 insider(s) compran 1,194,158$ en PRTA mientras los cortos son el 15.7 dias de volumen (7,911,160.0 acciones, -0% vs periodo anterior)"
+  },
+  {
+   "peso": 21.193282,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 3 insider(s) compran 193,282$ en AFCG mientras los cortos son el 15.0 dias de volumen (605,852.0 acciones, -8% vs periodo anterior)"
+  },
+  {
+   "peso": 21.19275,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 2 insider(s) compran 192,750$ en WW mientras los cortos son el 17.2 dias de volumen (2,046,193.0 acciones, +9% vs periodo anterior)"
+  },
+  {
+   "peso": 20.54895,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 2 insider(s) compran 1,548,950$ en FIP mientras los cortos son el 13.0 dias de volumen (17,829,552.0 acciones, -8% vs periodo anterior)"
+  },
+  {
+   "peso": 20.469810999999996,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 1 insider(s) compran 2,849,811$ en NATR mientras los cortos son el 11.6 dias de volumen (1,061,335.0 acciones, +16% vs periodo anterior)"
+  },
+  {
+   "peso": 17.990000000000002,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 5 insider(s) compran 6,230,000$ en OBIO mientras los cortos son el 7.0 dias de volumen (2,732,484.0 acciones, +7% vs periodo anterior)"
+  },
+  {
+   "peso": 17.12,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 1 insider(s) compran 5,106,709$ en OFIX mientras los cortos son el 6.1 dias de volumen (2,173,386.0 acciones, -9% vs periodo anterior)"
+  },
+  {
+   "peso": 15.917008000000001,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 2 insider(s) compran 847,008$ en ADTN mientras los cortos son el 9.1 dias de volumen (12,085,395.0 acciones, -4% vs periodo anterior)"
+  },
+  {
    "tipo": "cluster_compra",
    "peso": 93,
    "detalle": "31 insiders distintos COMPRANDO en TSM: Cao Min, Chang Tzonz-Sheng, Chen Chih-Ho, Chen Pei-Hung, Chin Yung-Pei, Chuang Juiping, Chuang Tzu-Sou, Fang Shu-Hua, He Jun, Hou Yung-Chin, Hsu Kuo-Chin, Huang Jen-Chau, Hwang Yuan-Ko, Jang Syun-Ming, Ku Yao-Ching, Lee Chun-Hsien, Lin Chris Horng-Dar, Lin Shyue-Shyh, Lu Chin-Sheng, Lu Lee-Chung, Mii Yuh-Jier, SPLINTER MICHAEL R, Tien Bor-Zen, Wang Ying-Lang, Wei Che-Chia, Wu Shien-Yang, Wu Yi-Huang, Yeap Choh Fei, Yoo Chue-San, Yuan Lipen, Zhang Kevin Xiaoqiang"
@@ -64389,134 +64429,6 @@
     "docid": "20035273",
     "fecha_archivo": "2026-08-18",
     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035273.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Charlotte-Meckle HLTH [GS]",
-    "ticker": "",
-    "tipo_activo": "GS",
-    "operacion": "VENTA",
-    "fecha": "07/22/2026",
-    "importe_min": 250001,
-    "importe_max": 500000,
-    "opciones": false,
-    "politico": "Scott H. Peters",
-    "distrito": "CA50",
-    "docid": "20035191",
-    "fecha_archivo": "2026-08-17",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Los Angeles CA IMPT SCH [GS]",
-    "ticker": "",
-    "tipo_activo": "GS",
-    "operacion": "VENTA",
-    "fecha": "07/24/2026",
-    "importe_min": 50001,
-    "importe_max": 100000,
-    "opciones": false,
-    "politico": "Scott H. Peters",
-    "distrito": "CA50",
-    "docid": "20035191",
-    "fecha_archivo": "2026-08-17",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Los Angeles CA IMPTSch [GS]",
-    "ticker": "",
-    "tipo_activo": "GS",
-    "operacion": "VENTA",
-    "fecha": "07/24/2026",
-    "importe_min": 500001,
-    "importe_max": 1000000,
-    "opciones": false,
-    "politico": "Scott H. Peters",
-    "distrito": "CA50",
-    "docid": "20035191",
-    "fecha_archivo": "2026-08-17",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Los Angeles Cnty CA TRANs [GS]",
-    "ticker": "",
-    "tipo_activo": "GS",
-    "operacion": "COMPRA",
-    "fecha": "07/01/2026",
-    "importe_min": 100001,
-    "importe_max": 250000,
-    "opciones": false,
-    "politico": "Scott H. Peters",
-    "distrito": "CA50",
-    "docid": "20035191",
-    "fecha_archivo": "2026-08-17",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Pittsburgh, CA Successor Agency [GS]",
-    "ticker": "",
-    "tipo_activo": "GS",
-    "operacion": "COMPRA",
-    "fecha": "07/30/2026",
-    "importe_min": 50001,
-    "importe_max": 100000,
-    "opciones": false,
-    "politico": "Scott H. Peters",
-    "distrito": "CA50",
-    "docid": "20035191",
-    "fecha_archivo": "2026-08-17",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Smash Capital Fund II LP [OT]",
-    "ticker": "",
-    "tipo_activo": "OT",
-    "operacion": "COMPRA",
-    "fecha": "07/28/2026",
-    "importe_min": 50001,
-    "importe_max": 100000,
-    "opciones": false,
-    "politico": "Scott H. Peters",
-    "distrito": "CA50",
-    "docid": "20035191",
-    "fecha_archivo": "2026-08-17",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "U.S. Treasury Bill [GS]",
-    "ticker": "",
-    "tipo_activo": "GS",
-    "operacion": "COMPRA",
-    "fecha": "07/27/2026",
-    "importe_min": 50001,
-    "importe_max": 100000,
-    "opciones": false,
-    "politico": "Scott H. Peters",
-    "distrito": "CA50",
-    "docid": "20035191",
-    "fecha_archivo": "2026-08-17",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf"
-   },
-   {
-    "owner": "SP",
-    "activo": "Valo Ventures GP II, LP [OT]",
-    "ticker": "",
-    "tipo_activo": "OT",
-    "operacion": "COMPRA",
-    "fecha": "07/22/2026",
-    "importe_min": 15001,
-    "importe_max": 50000,
-    "opciones": false,
-    "politico": "Scott H. Peters",
-    "distrito": "CA50",
-    "docid": "20035191",
-    "fecha_archivo": "2026-08-17",
-    "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf"
    }
   ],
   "avisos": [
@@ -64576,7 +64488,7 @@
     "detalle": "Nancy Pelosi COMPRA de BE por 1,000,001-5,000,000$ (07/24/2026)"
    }
   ],
-  "n_operaciones": 288
+  "n_operaciones": 280
  },
  "avisos_conjuntos": [
   {
@@ -64600,9 +64512,49 @@
    "detalle": "Harrison Street Real Assets Fund LLC (Accionista >10% de 2023 ETF Series Trust) compra 24,462,564$ en 2023 ETF Series Trust (NFRX)"
   },
   {
+   "peso": 22.194158,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 1 insider(s) compran 1,194,158$ en PRTA mientras los cortos son el 15.7 dias de volumen (7,911,160.0 acciones, -0% vs periodo anterior)"
+  },
+  {
+   "peso": 21.193282,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 3 insider(s) compran 193,282$ en AFCG mientras los cortos son el 15.0 dias de volumen (605,852.0 acciones, -8% vs periodo anterior)"
+  },
+  {
+   "peso": 21.19275,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 2 insider(s) compran 192,750$ en WW mientras los cortos son el 17.2 dias de volumen (2,046,193.0 acciones, +9% vs periodo anterior)"
+  },
+  {
    "tipo": "cluster_compra",
    "peso": 21,
    "detalle": "7 insiders distintos COMPRANDO en LRMR: BEN-MAIMON CAROLE, Celano Michael, Hamilton Thomas Edward, Harlow John B. Jr., Shankar Gopi, THOMAS FRANK E, Truitt Joseph"
+  },
+  {
+   "peso": 20.54895,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 2 insider(s) compran 1,548,950$ en FIP mientras los cortos son el 13.0 dias de volumen (17,829,552.0 acciones, -8% vs periodo anterior)"
+  },
+  {
+   "peso": 20.469810999999996,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 1 insider(s) compran 2,849,811$ en NATR mientras los cortos son el 11.6 dias de volumen (1,061,335.0 acciones, +16% vs periodo anterior)"
+  },
+  {
+   "peso": 17.990000000000002,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 5 insider(s) compran 6,230,000$ en OBIO mientras los cortos son el 7.0 dias de volumen (2,732,484.0 acciones, +7% vs periodo anterior)"
+  },
+  {
+   "peso": 17.12,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 1 insider(s) compran 5,106,709$ en OFIX mientras los cortos son el 6.1 dias de volumen (2,173,386.0 acciones, -9% vs periodo anterior)"
+  },
+  {
+   "peso": 15.917008000000001,
+   "tipo": "compra_con_cortos",
+   "detalle": "COMPRAN y el valor esta muy corto: 2 insider(s) compran 847,008$ en ADTN mientras los cortos son el 9.1 dias de volumen (12,085,395.0 acciones, -4% vs periodo anterior)"
   },
   {
    "tipo": "venta_masiva",
@@ -64690,21 +64642,6 @@
    "detalle": "3 insiders distintos COMPRANDO en GOOD: Beckhorn Jay, Cooper Arthur S., Gerson Gary"
   },
   {
-   "tipo": "cluster_compra",
-   "peso": 9,
-   "detalle": "3 insiders distintos COMPRANDO en AFCG: Hetzel Brandon, TANNENBAUM LEONARD M, Tannenbaum Robyn"
-  },
-  {
-   "tipo": "cluster_compra",
-   "peso": 9,
-   "detalle": "3 insiders distintos COMPRANDO en FUN: Bennett Christopher Lawrence, HADDRILL RICHARD M, JAFFER REHAN"
-  },
-  {
-   "tipo": "compra_grande",
-   "peso": 9.0,
-   "detalle": "JAFFER REHAN (Consejero de Six Flags Entertainment Corporation/NEW) compra 7,000,000$ en Six Flags Entertainment Corporation/NEW (FUN)"
-  },
-  {
    "peso": 8.000001000000001,
    "tipo": "congreso_compra_grande",
    "detalle": "Darrell E. Issa COMPRA de Treasury Note 3.375% due por 5,000,001-25,000,000$ (10/08/2026)"
@@ -64715,11 +64652,6 @@
    "detalle": "Darrell E. Issa VENTA de Treasury Note 3.375% due por 5,000,001-25,000,000$ (10/14/2026)"
   },
   {
-   "tipo": "compra_grande",
-   "peso": 8.0,
-   "detalle": "RTW INVESTMENTS, LP (Accionista >10% de Orchestra BioMed Holdings, Inc.) compra 6,000,000$ en Orchestra BioMed Holdings, Inc. (OBIO)"
-  },
-  {
    "peso": 8,
    "tipo": "congreso_cluster",
    "detalle": "2 congresistas distintos COMPRANDO Black Belt Energy Gas Di: Mike Kelly, Suzan K. DelBene"
@@ -64728,26 +64660,6 @@
    "peso": 8,
    "tipo": "congreso_cluster",
    "detalle": "2 congresistas distintos COMPRANDO MSFT: Josh Gottheimer, Lisa McClain"
-  },
-  {
-   "tipo": "compra_grande",
-   "peso": 7.0024925,
-   "detalle": "Juniper Investment Company, LLC (Accionista >10% de Orthofix Medical Inc.) compra 5,002,492$ en Orthofix Medical Inc. (OFIX)"
-  },
-  {
-   "tipo": "compra_grande",
-   "peso": 6.983487599999999,
-   "detalle": "DE ANGOITIA ALFONSO (Consejero de Liberty Latin America Ltd.) compra 4,983,488$ en Liberty Latin America Ltd. (LILA)"
-  },
-  {
-   "tipo": "venta_masiva",
-   "peso": 6.368545322,
-   "detalle": "STRYKER RONDA E (Consejero de STRYKER CORP) VENDE 48,685,453$ en STRYKER CORP (SYK)"
-  },
-  {
-   "tipo": "contracorriente",
-   "peso": 6.231999999999999,
-   "detalle": "Watts Claudius E. IV (Consejero de Vistance Networks, Inc.) COMPRA 831,060$ en Vistance Networks, Inc. (VISN) con la accion -68% abajo en 90 dias (desde maximo -80%)"
   },
   {
    "peso": 6.000001,
@@ -64784,5 +64696,264 @@
    "tipo": "congreso_compra_grande",
    "detalle": "Nancy Pelosi COMPRA de BE por 1,000,001-5,000,000$ (07/24/2026)"
   }
- ]
+ ],
+ "cortos": {
+  "filas": [
+   {
+    "ticker": "WW",
+    "empresa": "WW INTERNATIONAL, INC.",
+    "fecha": "10/30/2026",
+    "interes": 2046193.0,
+    "dias_cobertura": 17.25,
+    "cambio_pct": 9.1,
+    "comprado": 192750,
+    "n_insiders": 2
+   },
+   {
+    "ticker": "PRTA",
+    "empresa": "PROTHENA CORP PUBLIC LTD CO",
+    "fecha": "10/30/2026",
+    "interes": 7911160.0,
+    "dias_cobertura": 15.69,
+    "cambio_pct": -0.4,
+    "comprado": 1194158,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "AFCG",
+    "empresa": "Advanced Flower Capital Inc.",
+    "fecha": "10/30/2026",
+    "interes": 605852.0,
+    "dias_cobertura": 15.03,
+    "cambio_pct": -8.2,
+    "comprado": 193282,
+    "n_insiders": 3
+   },
+   {
+    "ticker": "FIP",
+    "empresa": "FTAI Infrastructure Inc.",
+    "fecha": "10/30/2026",
+    "interes": 17829552.0,
+    "dias_cobertura": 13.0,
+    "cambio_pct": -7.6,
+    "comprado": 1548950,
+    "n_insiders": 2
+   },
+   {
+    "ticker": "NATR",
+    "empresa": "NATURES SUNSHINE PRODUCTS INC",
+    "fecha": "10/30/2026",
+    "interes": 1061335.0,
+    "dias_cobertura": 11.62,
+    "cambio_pct": 15.5,
+    "comprado": 2849811,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "DOX",
+    "empresa": "AMDOCS LTD",
+    "fecha": "10/30/2026",
+    "interes": 8196250.0,
+    "dias_cobertura": 9.29,
+    "cambio_pct": -1.0,
+    "comprado": 332822,
+    "n_insiders": 5
+   },
+   {
+    "ticker": "ADTN",
+    "empresa": "ADTRAN Holdings, Inc.",
+    "fecha": "10/30/2026",
+    "interes": 12085395.0,
+    "dias_cobertura": 9.07,
+    "cambio_pct": -3.7,
+    "comprado": 847008,
+    "n_insiders": 2
+   },
+   {
+    "ticker": "ABCL",
+    "empresa": "AbCellera Biologics Inc.",
+    "fecha": "10/30/2026",
+    "interes": 29023512.0,
+    "dias_cobertura": 8.49,
+    "cambio_pct": -6.2,
+    "comprado": 698920,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "LKFN",
+    "empresa": "LAKELAND FINANCIAL CORP",
+    "fecha": "10/30/2026",
+    "interes": 1854995.0,
+    "dias_cobertura": 8.35,
+    "cambio_pct": -23.2,
+    "comprado": 117177,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "LRMR",
+    "empresa": "Larimar Therapeutics, Inc.",
+    "fecha": "10/30/2026",
+    "interes": 10538346.0,
+    "dias_cobertura": 8.25,
+    "cambio_pct": -28.1,
+    "comprado": 382086,
+    "n_insiders": 7
+   },
+   {
+    "ticker": "GOOD",
+    "empresa": "GLADSTONE COMMERCIAL CORP",
+    "fecha": "10/30/2026",
+    "interes": 4351111.0,
+    "dias_cobertura": 8.05,
+    "cambio_pct": -1.5,
+    "comprado": 188837,
+    "n_insiders": 3
+   },
+   {
+    "ticker": "JYNT",
+    "empresa": "JOINT Corp",
+    "fecha": "10/30/2026",
+    "interes": 323477.0,
+    "dias_cobertura": 7.41,
+    "cambio_pct": -7.4,
+    "comprado": 1571362,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "STRA",
+    "empresa": "Strategic Education, Inc.",
+    "fecha": "10/30/2026",
+    "interes": 1623306.0,
+    "dias_cobertura": 7.21,
+    "cambio_pct": 0.8,
+    "comprado": 163118,
+    "n_insiders": 2
+   },
+   {
+    "ticker": "VISN",
+    "empresa": "Vistance Networks, Inc.",
+    "fecha": "10/30/2026",
+    "interes": 39178754.0,
+    "dias_cobertura": 7.04,
+    "cambio_pct": -2.6,
+    "comprado": 1029255,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "NTHI",
+    "empresa": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+    "fecha": "10/30/2026",
+    "interes": 920631.0,
+    "dias_cobertura": 7.03,
+    "cambio_pct": 5.0,
+    "comprado": 583611,
+    "n_insiders": 2
+   },
+   {
+    "ticker": "OBIO",
+    "empresa": "Orchestra BioMed Holdings, Inc.",
+    "fecha": "10/30/2026",
+    "interes": 2732484.0,
+    "dias_cobertura": 6.99,
+    "cambio_pct": 7.0,
+    "comprado": 6230000,
+    "n_insiders": 5
+   },
+   {
+    "ticker": "UPBD",
+    "empresa": "UPBOUND GROUP, INC.",
+    "fecha": "10/30/2026",
+    "interes": 8346143.0,
+    "dias_cobertura": 6.15,
+    "cambio_pct": -9.1,
+    "comprado": 450063,
+    "n_insiders": 2
+   },
+   {
+    "ticker": "OFIX",
+    "empresa": "Orthofix Medical Inc.",
+    "fecha": "10/30/2026",
+    "interes": 2173386.0,
+    "dias_cobertura": 6.12,
+    "cambio_pct": -9.1,
+    "comprado": 5106709,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "DGICA",
+    "empresa": "DONEGAL GROUP INC",
+    "fecha": "10/30/2026",
+    "interes": 694059.0,
+    "dias_cobertura": 6.09,
+    "cambio_pct": -4.5,
+    "comprado": 1046002,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "CMCO",
+    "empresa": "COLUMBUS MCKINNON CORP",
+    "fecha": "10/30/2026",
+    "interes": 2461300.0,
+    "dias_cobertura": 5.67,
+    "cambio_pct": -0.2,
+    "comprado": 551349,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "EQPT",
+    "empresa": "EquipmentShare.com Inc",
+    "fecha": "10/30/2026",
+    "interes": 16518675.0,
+    "dias_cobertura": 5.64,
+    "cambio_pct": -12.0,
+    "comprado": 804105,
+    "n_insiders": 2
+   },
+   {
+    "ticker": "STLN",
+    "empresa": "Starling Oncology, Inc.",
+    "fecha": "10/30/2026",
+    "interes": 6840807.0,
+    "dias_cobertura": 5.42,
+    "cambio_pct": 4.7,
+    "comprado": 176273,
+    "n_insiders": 1
+   },
+   {
+    "ticker": "EGBN",
+    "empresa": "EAGLE BANCORP INC",
+    "fecha": "10/30/2026",
+    "interes": 3334004.0,
+    "dias_cobertura": 5.1,
+    "cambio_pct": 4.0,
+    "comprado": 199429,
+    "n_insiders": 2
+   },
+   {
+    "ticker": "GSM",
+    "empresa": "Ferroglobe PLC",
+    "fecha": "10/30/2026",
+    "interes": 5493762.0,
+    "dias_cobertura": 4.63,
+    "cambio_pct": 24.5,
+    "comprado": 262563,
+    "n_insiders": 5
+   },
+   {
+    "ticker": "LUMN",
+    "empresa": "Lumen Technologies, Inc.",
+    "fecha": "10/30/2026",
+    "interes": 53133365.0,
+    "dias_cobertura": 4.4,
+    "cambio_pct": -17.2,
+    "comprado": 494605,
+    "n_insiders": 2
+   }
+  ],
+  "cobertura": [
+   53,
+   105
+  ],
+  "fecha_dato": "10/30/2026"
+ }
 }
