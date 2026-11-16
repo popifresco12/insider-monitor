@@ -1,0 +1,45 @@
+
+============================================================
+1/4  Insiders SEC (Form 4)
+============================================================
+  [ 15.0] cluster_compra   5 insiders distintos COMPRANDO en DOX: Davis Sarah R., Genish Amos, Kanouff Yvette, MORALI VERONIQUE, MacDonald John Ant
+  [ 15.0] cluster_compra   5 insiders distintos COMPRANDO en GSM: CROCKETT BRUCE LARMOUR, Girardeau David Marie, Gabriel, Levi Marco, Lopez Madrid 
+  [ 13.0] compra_grande    GOLDENTREE ASSET MANAGEMENT LP (Accionista >10% de Keenova Therapeutics plc) compra 10,979,332$ en Keenova Therapeutics 
+  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en FF: Bedell Donald C., Butcher Pamela R, Polet Roeland, SPARKS ROSE
+  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en NONE: Audax Private Credit Business, LP, GOLDENTREE ASSET MANAGEMENT LP, Golub David, 
+  [ 11.9] compra_grande    STERNLICHT BARRY S (Presidente del Consejo de STARWOOD PROPERTY TRUST, INC.) compra 9,889,118$ en STARWOOD PROPERTY TRUS
+  [  9.4] venta_masiva     DANHAKL JOHN G (Consejero de Life Time Group Holdings, Inc.) VENDE 78,895,886$ en Life Time Group Holdings, Inc. (LTH)
+  [  9.1] venta_masiva     Green LTF Holdings II LP (Consejero de Life Time Group Holdings, Inc.) VENDE 76,307,199$ en Life Time Group Holdings, In
+
+============================================================
+2/4  Congreso (indice oficial + PTRs)
+============================================================
+  operaciones de congresistas parseadas: 280
+
+============================================================
+2b/4  Cortos (posiciones bajistas) cruzados con compras
+============================================================
+  tickers con compras relevantes: 81
+  con dato de cortos: 29 de 81
+  avisos de squeeze: 8
+
+============================================================
+3/4  Portfolios por insider (18 meses de Form 4 + precios)
+============================================================
+  [57/60] Starr Gayle P                  | 30 form | ops  38 | valor             0 | resultado             0 (None%)
+  [58/60] ARES MANAGEMENT LLC            | 12 form | ops  18 | valor     9,999,193 | resultado       771,724 (8.4%)
+  [59/60] Juniper Investment Company, LL |  9 form | ops  15 | valor     9,186,943 | resultado    -1,643,814 (-15.2%)
+  [60/60] DE ANGOITIA ALFONSO                    (cache)
+
+portfolios.json: 92 personas | con curva de evolucion: 90
+
+============================================================
+4/4  Dashboard
+============================================================
+index.html generado: 610,921 bytes
+compras: 321 | ventas: 1140 | avisos: 48 | insiders: 1301 | con portfolio: 66
+clusters: 10 | contracorriente: 45 | politicos: 34 | ops congreso: 280
+
+
+Pipeline completado 2026-11-16T10:07:56
+EXIT=0
