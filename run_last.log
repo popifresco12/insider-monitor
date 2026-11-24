@@ -2,43 +2,43 @@
 ============================================================
 1/4  Insiders SEC (Form 4)
 ============================================================
-  [ 19.6] venta_masiva     Carpenito Anthony (Consejero de Loar Holdings Inc.) VENDE 181,150,393$ en Loar Holdings Inc. (LOAR)
-  [ 19.6] venta_masiva     Abrams David C (Consejero de Loar Holdings Inc.) VENDE 181,150,393$ en Loar Holdings Inc. (LOAR)
-  [ 19.6] venta_masiva     Bomberg Alison (Consejero de Loar Holdings Inc.) VENDE 181,150,393$ en Loar Holdings Inc. (LOAR)
-  [ 19.6] venta_masiva     ABRAMS CAPITAL MANAGEMENT, L.P. (Accionista >10% de Loar Holdings Inc.) VENDE 181,150,393$ en Loar Holdings Inc. (LOAR)
-  [ 19.6] venta_masiva     Bobbili Raja (Consejero de Loar Holdings Inc.) VENDE 181,150,393$ en Loar Holdings Inc. (LOAR)
   [ 18.0] cluster_compra   6 insiders distintos COMPRANDO en TGEN: Deschenes Roger P., Hatsopoulos John, Hirsch Susan B, Lewis Earl, Rangesh Abinan
-  [ 16.9] compra_grande    Stampacchia Otello (Consejero de WINDWARD BIO GROUP AG) compra 14,875,000$ en WINDWARD BIO GROUP AG (WWB)
-  [ 16.9] compra_grande    Stampacchia Otello (Consejero de WINDWARD BIO GROUP AG) compra 14,875,000$ en WINDWARD BIO GROUP AG (WWB)
+  [ 13.0] venta_masiva     SUN Weike (Consejero de Tron Inc.) VENDE 115,072,650$ en Tron Inc. (TRON)
+  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en UAVS: Begley Grant A, DAY L B, Irby William Gordon, Klavon Brent
+  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en NONE: Blackstone Holdings IV L.P., Blackstone Private Multi-Asset Credit & Income Fund
+  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en DTI: Domino Michael Wayne Jr., FURST JACK D, Green Ira Harris Jr, Rodriguez Aldo
+  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en SEI: Brock Amanda M, Ramachandran Kyle S., TEAGUE AJ, Zartler William A
+  [ 11.3] venta_masiva     CHAI TRUST CO LLC (Accionista >10% de Ardent Health, Inc.) VENDE 97,790,892$ en Ardent Health, Inc. (ARDT)
+  [  9.2] compra_grande    Blackstone Private Multi-Asset Credit & Income Fund (Accionista >10% de Blackstone Private Real Estate Credit & Income F
 
 ============================================================
 2/4  Congreso (indice oficial + PTRs)
 ============================================================
-  operaciones de congresistas parseadas: 287
+  operaciones de congresistas parseadas: 282
 
 ============================================================
 2b/4  Cortos (posiciones bajistas) cruzados con compras
 ============================================================
-  tickers con compras relevantes: 143
-  con dato de cortos: 0 de 143
+  tickers con compras relevantes: 137
+  con dato de cortos: 0 de 137
   avisos de squeeze: 0
 
 ============================================================
 3/4  Portfolios por insider (18 meses de Form 4 + precios)
 ============================================================
-  [57/60] Lewis Earl                     |  5 form | ops   5 | valor        30,800 | resultado       -15,761 (-33.9%)
-  [58/60] Deschenes Roger P.             |  4 form | ops   5 | valor       103,145 | resultado      -237,149 (-69.7%)
-  [59/60] Wilson Alexander Blair         |  2 form | ops   3 | valor       284,755 | resultado    -2,004,740 (-87.6%)
-  [60/60] Hirsch Susan B                 |  8 form | ops   3 | valor        38,500 | resultado       -21,950 (-36.3%)
+  [57/60] Whiting John Kimball IV        |  4 form | ops   4 | valor        90,320 | resultado      -153,078 (-62.9%)
+  [58/60] Lewis Earl                     |  5 form | ops   5 | valor        35,200 | resultado       -11,361 (-24.4%)
+  [59/60] Wright Bradley J.              |  4 form | ops   6 | valor       128,512 | resultado       -92,246 (-41.8%)
+  [60/60] Deschenes Roger P.             |  4 form | ops   5 | valor       117,880 | resultado      -222,414 (-65.4%)
 
-portfolios.json: 60 personas | con curva de evolucion: 53
+portfolios.json: 60 personas | con curva de evolucion: 57
 
 ============================================================
 4/4  Dashboard
 ============================================================
-index.html generado: 384,416 bytes
-compras: 694 | ventas: 1845 | avisos: 40 | insiders: 2068 | con portfolio: 60
-clusters: 10 | contracorriente: 119 | politicos: 34 | ops congreso: 287
+index.html generado: 391,505 bytes
+compras: 657 | ventas: 1169 | avisos: 40 | insiders: 1548 | con portfolio: 60
+clusters: 10 | contracorriente: 114 | politicos: 33 | ops congreso: 282
 
 
-Pipeline completado 2026-11-22T10:21:40
+Pipeline completado 2026-11-24T10:13:33
