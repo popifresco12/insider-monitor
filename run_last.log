@@ -2,43 +2,43 @@
 ============================================================
 1/4  Insiders SEC (Form 4)
 ============================================================
-  [ 18.0] cluster_compra   6 insiders distintos COMPRANDO en TGEN: Deschenes Roger P., Hatsopoulos John, Hirsch Susan B, Lewis Earl, Rangesh Abinan
-  [ 13.0] venta_masiva     SUN Weike (Consejero de Tron Inc.) VENDE 115,072,650$ en Tron Inc. (TRON)
-  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en UAVS: Begley Grant A, DAY L B, Irby William Gordon, Klavon Brent
-  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en NONE: Blackstone Holdings IV L.P., Blackstone Private Multi-Asset Credit & Income Fund
-  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en DTI: Domino Michael Wayne Jr., FURST JACK D, Green Ira Harris Jr, Rodriguez Aldo
-  [ 12.0] cluster_compra   4 insiders distintos COMPRANDO en SEI: Brock Amanda M, Ramachandran Kyle S., TEAGUE AJ, Zartler William A
-  [ 11.3] venta_masiva     CHAI TRUST CO LLC (Accionista >10% de Ardent Health, Inc.) VENDE 97,790,892$ en Ardent Health, Inc. (ARDT)
-  [  9.2] compra_grande    Blackstone Private Multi-Asset Credit & Income Fund (Accionista >10% de Blackstone Private Real Estate Credit & Income F
+  [ 40.0] venta_masiva     CP Circle ML Holdco GP, LLC (Accionista >10% de Medline Inc.) VENDE 384,576,796$ en Medline Inc. (MDLN)
+  [ 40.0] venta_masiva     TC Group Cayman Investment Holdings, L.P. (Accionista >10% de Medline Inc.) VENDE 384,576,796$ en Medline Inc. (MDLN)
+  [ 33.4] venta_masiva     Hellman & Friedman Capital Partners X (Parallel), L.P. (Accionista >10% de Medline Inc.) VENDE 319,305,751$ en Medline I
+  [ 32.5] compra_grande    THIEL PETER (Consejero de Palantir Technologies Inc.) compra 30,502,751$ en Palantir Technologies Inc. (PLTR)
+  [ 32.5] compra_grande    Troim Tor Olav (Consejero de Borr Drilling Ltd) compra 30,451,500$ en Borr Drilling Ltd (BORR)
+  [ 29.5] venta_masiva     Amodei Daniela (Presidente de Anthropic, PBC) VENDE 280,405,374$ en Anthropic, PBC (ANT)
+  [ 29.5] venta_masiva     Amodei Dario (Consejero Delegado (CEO) de Anthropic, PBC) VENDE 280,405,374$ en Anthropic, PBC (ANT)
+  [ 24.6] venta_masiva     BCP 8 Holdings Mozart Manager L.L.C. (Accionista >10% de Medline Inc.) VENDE 230,542,569$ en Medline Inc. (MDLN)
 
 ============================================================
 2/4  Congreso (indice oficial + PTRs)
 ============================================================
-  operaciones de congresistas parseadas: 282
+  operaciones de congresistas parseadas: 377
 
 ============================================================
 2b/4  Cortos (posiciones bajistas) cruzados con compras
 ============================================================
-  tickers con compras relevantes: 137
-  con dato de cortos: 0 de 137
+  tickers con compras relevantes: 120
+  con dato de cortos: 0 de 120
   avisos de squeeze: 0
 
 ============================================================
 3/4  Portfolios por insider (18 meses de Form 4 + precios)
 ============================================================
-  [57/60] Whiting John Kimball IV        |  4 form | ops   4 | valor        90,320 | resultado      -153,078 (-62.9%)
-  [58/60] Lewis Earl                     |  5 form | ops   5 | valor        35,200 | resultado       -11,361 (-24.4%)
-  [59/60] Wright Bradley J.              |  4 form | ops   6 | valor       128,512 | resultado       -92,246 (-41.8%)
-  [60/60] Deschenes Roger P.             |  4 form | ops   5 | valor       117,880 | resultado      -222,414 (-65.4%)
+  [57/60] Fleming Ned N III              | 12 form | ops   5 | valor       493,950 | resultado        46,869 (10.5%)
+  [58/60] Korman Judah                   |  2 form | ops   5 | valor       100,102 | resultado       -59,481 (-32.6%)
+  [59/60] Edgar Randall W.               |  1 form | ops   1 | valor       109,652 | resultado         9,597 (9.6%)
+  [60/60] Beyman Mordechai Menachem      |  2 form | ops   5 | valor        51,675 | resultado       -31,468 (-34.6%)
 
-portfolios.json: 60 personas | con curva de evolucion: 57
+portfolios.json: 60 personas | con curva de evolucion: 55
 
 ============================================================
 4/4  Dashboard
 ============================================================
-index.html generado: 391,505 bytes
-compras: 657 | ventas: 1169 | avisos: 40 | insiders: 1548 | con portfolio: 60
-clusters: 10 | contracorriente: 114 | politicos: 33 | ops congreso: 282
+index.html generado: 396,373 bytes
+compras: 608 | ventas: 1192 | avisos: 40 | insiders: 1547 | con portfolio: 60
+clusters: 10 | contracorriente: 111 | politicos: 36 | ops congreso: 377
 
 
-Pipeline completado 2026-11-24T10:13:33
+Pipeline completado 2026-11-27T10:12:54
