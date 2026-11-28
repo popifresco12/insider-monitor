@@ -30,7 +30,7 @@ URL = "https://api.nasdaq.com/api/quote/{}/short-interest?assetClass=stocks"
 
 # FINRA publica dos veces al mes: 4 dias de cache es mas que suficiente y evita 120 peticiones diarias.
 DIAS_CACHE = 4
-MAX_HILOS = 6
+MAX_HILOS = 1
 TIMEOUT = 20
 
 
@@ -71,6 +71,8 @@ def _pedir(ticker: str):
         d = json.loads(r.read().decode("utf-8", "replace"))
     filas = (((d.get("data") or {}).get("shortInterestTable") or {}).get("rows") or [])
     if not filas:
+        if "not available" in str(d.get("message", "")).lower():
+            raise ValueError("no_dato")
         return None
     # rows viene de mas reciente a mas antiguo
     ult = filas[0]
@@ -102,7 +104,7 @@ def cargar(tickers, hoy: str | None = None, forzar: bool = False) -> dict:
 
     for t in {str(x).strip().upper() for x in tickers if x}:
         c = cache.get(t)
-        if c and not forzar and c.get("visto") and (dt.date.fromisoformat(hoy)
+        if c and not forzar and c.get("datos") and c.get("visto") and (dt.date.fromisoformat(hoy)
                                                     - dt.date.fromisoformat(c["visto"])).days < DIAS_CACHE:
             if c.get("datos"):
                 salida[t] = c["datos"]
@@ -110,10 +112,19 @@ def cargar(tickers, hoy: str | None = None, forzar: bool = False) -> dict:
         a_pedir.append(t)
 
     def trabajo(tk):
-        try:
-            return tk, _pedir(tk)
-        except Exception:
-            return tk, None
+        import time
+        for intento in range(3):
+            time.sleep(0.35)
+            try:
+                r = _pedir(tk)
+                if r:
+                    return tk, r
+            except ValueError:
+                return tk, None          # NYSE u otro: no hay dato, no reintentar
+            except Exception:
+                pass
+            time.sleep(1.0 * (intento + 1))
+        return tk, None
 
     if a_pedir:
         with ThreadPoolExecutor(max_workers=MAX_HILOS) as ex:
